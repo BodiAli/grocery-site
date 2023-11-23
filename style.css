@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav , header {
+  background-color: #1f2937;
+}
+header {
+  height: 600px;
+}
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 3px;
+  border-style: outset;
+  border-color: black;
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  margin-right: 32px;
+  gap: 13px;
+}
+.navigation ul a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.894);
+}
+.logo {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.623);
+  padding: 16px;
+  margin-left: 32px;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.container .introcontainer{
+  margin-left: 32px;
+}
+.introcontainer h1 {
+  color: beige;
+  font-size: 45px;
+  margin-bottom: 20px;
+  width: fit-content;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.introcontainer p {
+  color: beige;
+  line-height: 1.5;
+  max-width:525px;
+  min-width: 250px;
+  text-align: justify;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.introcontainer h4 {
+  background-color: azure;
+  margin-top: 20px;
+  width: fit-content;
+  border: 2px solid black;
+  padding: 5px;
+}
+section .vegies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-vegetable figcaption {
+  width: 300px;;
+  margin: 20px 450px 20px 450px;
+}
+.container img {
+  margin-right: 32px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 6px rgb(255, 255, 255);
+}
+.main-img {
+  max-height: 400px;
+}
+.header-img {
+  max-height: 206px;
+}
+.figure-img {
+  height: 200px;
+   width: 180px;
+}
+.main-vegetable .header-img {
+  margin: 20px 450px 20px 450px;
+}
