@@ -70,29 +70,200 @@ header .container {
   padding: 5px;
 }
 section .vegies-container {
+  background-color: rgba(126, 117, 117, 0.341);
+  padding: 40px 0;
+  border-bottom: 3px solid;
+  border-color: rgb(126, 117, 117);
+}
+.vegies-container > .container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  height: 450px;
+  background-color: rgb(178, 181, 173);
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 8px;
+  margin-bottom: 60px;
 }
-.main-vegetable figcaption {
-  width: 300px;;
-  margin: 20px 450px 20px 450px;
+.main-vegetable > figcaption {
+  width: 350px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
 }
-.container img {
+.main-vegetable > .header-img {
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px green;
+  margin-bottom: 10px;
+}
+.sub-vegies-container {
+  display: flex;
+  justify-content: space-around;
+}
+.tomato figcaption {
+  width: 183px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+.tomato .figure-img {
+  box-shadow: 0 0 10px green;
+  margin-bottom: 10px;
+}
+.tomato {
+  background-color: rgb(178, 181, 173);
+  padding: 18px;
+  border-radius: 8px;
+}
+.carrot {
+  background-color: rgb(178, 181, 173);
+  padding: 18px;
+  border-radius: 8px;
+}
+.carrot .figure-img {
+  box-shadow: 0 0 10px green;
+  margin-bottom: 10px;
+}
+.carrot figcaption {
+  width: 180px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+.pepper {
+  background-color: rgb(178, 181, 173);
+  padding: 18px;
+  border-radius: 8px;
+}
+.pepper figcaption {
+  width: 180px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+.pepper .figure-img {
+  box-shadow: 0 0 10px green;
+  margin-bottom: 10px;
+}
+.beetroot {
+  background-color: rgb(178, 181, 173);
+  padding: 18px;
+  border-radius: 8px;
+}
+.beetroot .figure-img {
+  box-shadow: 0 0 10px green;
+  margin-bottom: 10px;
+}
+.beetroot figcaption {
+  width: 180px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+.container > img {
   margin-right: 32px;
   border-radius: 8px;
   box-shadow: 2px 4px 6px rgb(255, 255, 255);
+}
+section .fruits-container {
+  background-color: rgba(126, 117, 117, 0.341);
+  padding: 40px 0;
+}
+.fruits-container > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(178, 181, 173);
+  width: 400px;
+  height: 450px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.main-fruit > figcaption {
+  width: 350px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+.main-fruit > .header-img {
+  border-radius: 8px;
+  box-shadow: 0 0 10px red;
+  margin-bottom: 10px;
+}
+.sub-fruits-container {
+  display: flex;
+  justify-content: space-around;
+}
+.apple {
+  background-color: rgb(178, 181, 173);
+  padding: 18px;
+  border-radius: 8px;
+}
+.apple .figure-img {
+  box-shadow: 0 0 5px red;
+  margin-bottom: 10px;
+}
+.apple figcaption {
+  width: 180px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+.orange {
+  background-color: rgb(178, 181, 173);
+  padding: 18px;
+  border-radius: 8px;
+}
+.orange .figure-img {
+  box-shadow: 0 0 5px red;
+  margin-bottom: 10px;
+}
+.orange figcaption {
+  width: 180px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+.mango {
+  background-color: rgb(178, 181, 173);
+  padding: 18px;
+  border-radius: 8px;
+}
+.mango .figure-img {
+  box-shadow: 0 0 5px red;
+  margin-bottom: 10px
+}
+.mango figcaption {
+  width: 180px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+.grape {
+  background-color: rgb(178, 181, 173);
+  padding: 18px;
+  border-radius: 8px;
+}
+.grape .figure-img {
+  box-shadow: 0 0 5px red;
+  margin-bottom: 10px
+}
+.grape figcaption {
+  width: 180px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
 }
 .main-img {
   max-height: 400px;
 }
 .header-img {
-  max-height: 206px;
+  max-height: 240px;
 }
 .figure-img {
   height: 200px;
-   width: 180px;
-}
-.main-vegetable .header-img {
-  margin: 20px 450px 20px 450px;
+  width: 180px;
+  border-radius: 8px;
 }
