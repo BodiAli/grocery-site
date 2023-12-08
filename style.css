@@ -30,6 +30,10 @@ header {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.894);
   font-family: Arial, Helvetica, sans-serif;
+  transition: color 0.3s ease;
+}
+.navigation ul a:hover {
+  color: #38a169; /* Change the color to the desired glowing color */
 }
 .logo {
   font-size: 24px;
@@ -310,6 +314,10 @@ footer > .end-nav {
 .end-nav ul a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.894);
+  transition: color 0.3s ease;
+}
+.end-nav ul a:hover {
+  color: gray;
 }
 .copyright {
   color: rgba(255, 255, 255, 0.894);
@@ -325,4 +333,40 @@ footer > .end-nav {
   height: 200px;
   width: 180px;
   border-radius: 8px;
+}
+
+
+@keyframes flipAndBounce {
+  0% {
+    transform: rotateY(0deg) scale(1);
+  }
+  50% {
+    transform: rotateY(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotateY(180deg) scale(1.1) translateY(-20px);
+  }
+}
+
+section img {
+  position: relative;
+  transition: box-shadow 0.5s ease, filter 0.5s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section img:hover {
+  animation: flipAndBounce 1s forwards, bounce 1s infinite 1s;
+  filter: brightness(70%) contrast(120%);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: rotateY(180deg) translateY(0);
+  }
+  40% {
+    transform: rotateY(180deg) translateY(-20px);
+  }
+  60% {
+    transform: rotateY(180deg) translateY(-10px);
+  }
 }
